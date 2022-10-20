@@ -7,3 +7,5 @@ All computational analyses can be accessed at this repository, with machine lear
 * Raw data have been deposited in the data/ folder and are publicly available as of the date of submission. 
 * All original code has been deposited in the src/ folder and is publicly available as of the date of submission. 
 * Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.
+
+If you have any issues, questions, or concerns, please do not hesitate to open up an issue or contact valerij@mit.edu.
