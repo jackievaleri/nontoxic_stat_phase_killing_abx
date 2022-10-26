@@ -1,0 +1,342 @@
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.encoder.0.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.0.W_i.weight".
+Loading pretrained parameter "encoder.encoder.0.W_h.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.weight".
+Loading pretrained parameter "encoder.encoder.0.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Loading pretrained parameter "ffn.7.weight".
+Loading pretrained parameter "ffn.7.bias".
+Moving model to cuda
+smiles,TOXICITY,rationale,rationale_score
+['CCCC[C@H](CC)CNC(=N)N=C(N)NCCCCCCNC(N)=NC(=N)NC[C@H](CC)CCCC |&1:29,&2:4,&3:11,&4:24,w:11.10,24.24|'],0.264,N=C(N=[CH2:1])NCC([CH3:1])[CH3:1],0.186
+['NC(Nc1ccc(Cl)cc1)=NC(=N)NCCCCCCNC(=N)N=C(N)Nc1ccc(Cl)cc1'],0.685,N=C(N=[CH2:1])NCCC[CH3:1],0.153
+['CC[C@@H](C)CCCCC(=O)N[C@@H](CCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCN)C(=O)N[C@H]1CCNC(=O)[C@@H](NC(=O)[C@@H](CCN)NC(=O)[C@@H](CCN)NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](Cc2ccccc2)NC(=O)[C@@H](CCN)NC1=O)[C@@H](C)O |&1:2,&2:11,&3:18,&4:19,&5:25,&6:32,&7:38,&8:42,&9:49,&10:56,&11:64,&12:75,&13:82|'],0.059,,
+['OCCN[C@H]1CCCc2c1[nH]c1ccc(cc21)-c1ccccc1 |&1:4,r|'],0.416,c1c[cH:1]cc2c1[nH][cH:1][cH:1]2,0.101
+['NC[C@H]1O[C@H](O[C@@H]2[C@@H](N)C[C@@H](N)[C@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O)[C@H]2O)[C@H](N)[C@@H](O)[C@@H]1O'],0.026,,
+['Cc1cc(ccc1OCCOCC[N+](C)(C)Cc1ccccc1)C(C)(C)CC(C)(C)C'],0.629,Cc1cc([CH3:1])ccc1[OH:1],0.239
+['CNC[C@@H]1CC[C@@H](N)[C@@H](O[C@@H]2[C@@H](N)C[C@@H](N)[C@H](O[C@H]3OC[C@](C)(O)[C@H](NC)[C@H]3O)[C@H]2O)O1'],0.028,,
+['CCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1'],0.631,C(CCC[CH3:1])CCC[CH3:1],0.229
+['Oc1ccc(Cl)cc1Cc1cc(Cl)ccc1O'],0.624,Oc1ccc(Cl)cc1[CH3:1],0.477
+['Oc1cc(Cl)ccc1Oc1ccc(Cl)cc1Cl'],0.400,Oc1cc(Cl)ccc1[OH:1],0.570
+['[O-][N+](=O)c1ccc(\\C=C\\C=N\\N2CC(=O)NC2=O)o1'],0.414,O=[N+:1]c1ccc(C=[CH2:1])o1,0.229
+['CCCCCCCCCCCCCCCC[N+](C)(C)C'],0.589,C(CCC[CH3:1])CCC[CH3:1],0.229
+['CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1'],0.228,c1c[cH:1]ccc1CCCC[CH3:1],0.118
+['[H][C@@](CCNCS(O)(=O)=O)(NC(=O)CCCC(C)C)C(=O)N[C@@]([H])([C@@H](C)O)C(=O)N[C@@]([H])(CCNCS(O)(=O)=O)C(=O)N[C@@]1([H])CCNC(=O)[C@@]([H])(NC(=O)[C@]([H])(CCNCS(O)(=O)=O)NC(=O)[C@]([H])(CCNCS(O)(=O)=O)NC(=O)[C@]([H])(CC(C)C)NC(=O)[C@]([H])(CC(C)C)NC(=O)[C@]([H])(CCNCS(O)(=O)=O)NC1=O)[C@@H](C)O'],0.102,,
+['[H][C@@]1(CC[C@@]2([H])[C@]3([H])[C@H](O)C[C@@]4([H])C[C@H](CC[C@]4(C)[C@@]3([H])CC[C@]12C)NCCCNCCCCNCCCN)[C@H](C)CC[C@@H](OS(O)(=O)=O)C(C)C'],0.629,O=[S:1](O)O[CH2:1]CC[CH2:1][CH3:1],0.138
+['OCC(Br)(CO)[N+]([O-])=O'],0.718,,
+['CCCCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1'],0.648,C(CCC[CH3:1])CCC[CH3:1],0.229
+['CCCCCCCCCCCC[N+](C)(C)CCOc1ccccc1'],0.573,C(CCC[CH3:1])CCC[CH3:1],0.229
+['CCCCCCCOc1ccc(CCC(N)(CO)CO)cc1C(F)(F)F'],0.430,c1cc([OH:1])c([CH3:1])cc1[CH3:1],0.239
+['Nc1ccc(cc1)S(=O)(=O)N([Ag])c1ncccn1'],0.122,[Ag][NH:1][S:1]c1cc[cH:1]cc1,0.173
+['CC(C)(C)CC(C)(C)c1ccc(OCCOCC[N+](C)(C)Cc2ccccc2)cc1'],0.636,C[CH2:1]c1ccc([OH:1])cc1,0.215
+['CCCCCCCCN=c1ccn(CCCCCCCCCCn2ccc(cc2)=NCCCCCCCC)cc1'],0.700,,
+['CC1=C(C)C(=O)C(CCCCCCCCCC[P+](c2ccccc2)(c2ccccc2)c2ccccc2)=CC1=O |c:1,38|'],0.809,O=C1C=C([CH3:1])C(=O)[CH:1]=[CH:1]1,0.446
+['[H][C@@]1(CC[C@@]2([H])[C@]3([H])[C@H](O)C[C@@]4([H])C[C@H](CC[C@]4(C)[C@@]3([H])CC[C@]12C)NCCCNCCCCN)[C@H](C)CC[C@@H](OS(O)(=O)=O)C(C)C'],0.602,O[S:1]O[C@H](CC[CH2:1][CH3:1])[CH3:1],0.147
+['CC(=NNC(N)=N)c1cc(NC(=O)CCCCCCCCC(=O)Nc2cc(cc(c2)C(C)=NNC(N)=N)C(C)=NNC(N)=N)cc(c1)C(C)=NNC(N)=N'],0.132,c1c(N[CH2:1]CCCCC[CH3:1])c[cH:1]c[cH:1]1,0.306
+['OCCNCCNc1ccc(NCCNCCO)c2C(=O)c3c(O)ccc(O)c3C(=O)c12'],0.762,c1c[cH:1]c2c([cH:1]1)[CH2:1][CH:1]=[CH:1][CH2:1]2,0.158
+['CCCCCCCCCCCCCCCC[N+](C)(C)CCN(Cc1ccc(OC)cc1)c1ncccn1'],0.544,COc1ccc([CH3:1])cc1,0.177
+['COc1cc(C)c2c(Oc3cccc(c3)C(F)(F)F)c(OC)cc(N[C@@H](C)CCCN)c2n1 |&1:25|'],0.504,c1c([OH:1])c([OH:1])[cH:1][cH:1]c1[NH2:1],0.411
+['Cc1ccc(cc1)-c1ccc2CCCC(=Cc2c1)C(=O)Nc1ccc(C[N+](C)(C)C2CCOCC2)cc1 |c:15|'],0.511,O=[CH:1]Nc1cc[cH:1]cc1,0.162
+['CC(C)(Cc1ccc2ccccc2c1)NC[C@@H](O)COc1cccc(Cl)c1C#N'],0.463,Clc1cccc([OH:1])c1[CH3:1],0.232
+['C(Oc1ccc(cc1)-c1nc2ccccc2n1Cc1ccccc1)[C@H](C1CCNCC1)n1c(nc2ccccc12)-c1ccccc1'],0.630,c1cc([OH:1])ccc1-c1n[cH:1][cH:1]n1[CH3:1],0.184
+['CC(C)c1ccc2c(CC[C@H]3[C@](C)(CN)CCC[C@]23C)c1'],0.107,C[C@]12CCC[C:1][C@@H]1CCc1cc([CH3:1])ccc12,0.115
+['CC[C@@H](C)CCCC(=O)N[C@@H](CCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCN)C(=O)N[C@H]1CCNC(=O)[C@@H](NC(=O)[C@H](CCN)NC(=O)[C@H](CCN)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CCN)NC1=O)[C@@H](C)O |a:10,17,18,24,31,37,41,48,55,63,71,78,&1:2|'],0.043,,
+['COc1ccc2n(C(=O)[C@@H]3C[C@H](C)CC[C@H]3C(C)C)c(=O)n(CCN)c2c1'],0.194,O=c1[nH:1]c2cc[cH:1]cc2[nH:1]1,0.124
+['CCCCCCCCCCCCCCCC[n+]1ccccc1'],0.616,C(CCC[CH3:1])CCC[CH3:1],0.229
+['CC[Hg]Sc1ccccc1C(O)=O'],0.529,c1cc[cH:1]c(S[Hg][CH3:1])c1,0.719
+['O=c1n([se]c2ccccc12)-c1ccccc1'],0.162,,
+['CN[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccccc12'],0.480,Clc1ccc([C@@H]2CC[CH2:1][CH:1]=[CH:1]2)cc1Cl,0.129
+['CCCCCCCCCCCCCCCC[n+]1ccn(Cc2ccccc2)c1C'],0.536,C(CCC[CH3:1])CCC[CH3:1],0.229
+['CN(C)C[C@@H](O)Cn1c2ccc(Br)cc2c2cc(Br)ccc12 |&1:4,r|'],0.274,Brc1ccc2c(c1)[cH:1][cH:1]n2[CH3:1],0.179
+['Cn1cc(C2=C(C(=O)NC2=O)c2cn(CCCSC(N)=N)c3ccccc23)c2ccccc12 |t:4|'],0.497,Cn1cc(C2=C(c3cn([CH3:1])[cH:1][cH:1]3)[CH2:1]N[CH2:1]2)[cH:1][cH:1]1,0.218
+['CCc1ccc(OCc2ccccc2C(=O)Nc2ccc3nc(C)cc(N)c3c2)cc1'],0.458,CCc1ccc([OH:1])cc1,0.215
+['C[C@@H](O)[C@H](NC(=O)[C@@H](C)[C@H](O)[C@@H](C)NC(=O)[C@@H](NC(=O)c1nc(nc(N)c1C)[C@H](CC(N)=O)NC[C@H](N)C(N)=O)[C@@H](O[C@@H]1O[C@@H](CO)[C@@H](O)[C@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](OC(N)=O)[C@@H]1O)c1c[nH]cn1)C(=O)NCCc1nc(cs1)-c1nc(cs1)C(=O)NCCCNCCCCN'],0.113,c1sc(CCN[CH2:1][CH2:1]N[CH2:1][CH2:1][CH2:1][CH2:1]N[CH2:1][CH3:1])nc1[CH3:1],0.141
+['NCCCC[C@H](N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](C(c1ccccc1)c1ccccc1)C(=O)N[C@@H](CCCCN)C(N)=O'],0.280,,
+['CO[C@]12[C@H]3N[C@H]3CN1C1=C([C@H]2COC(N)=O)C(=O)C(N)=C(C)C1=O |c:10,t:22|'],0.347,NC1=[CH:1]C(=O)[CH:1]=[CH:1]C1=O,0.485
+['N[Pt](N)(Cl)Cl'],0.031,,
+['Cc1cc2nc3ccc(cc3sc2cc1N)=[N+](C)C'],0.393,c1cc(=[N+:1])cc2sc3c[cH:1][cH:1]cc3nc1-2,0.164
+['CC(C)[C@H]1CC[C@H](C)C[C@@H]1OC(=O)C[N+](C)(C)CCCCCCCCCC[N+](C)(C)CC(=O)O[C@H]1C[C@H](C)CC[C@@H]1C(C)C |&1:40,&2:36,&3:34,&4:9,&5:6,&6:3|'],0.281,C(CCC[CH3:1])CCC[CH3:1],0.229
+['Oc1c(Cl)cc(Cl)c(Cl)c1Cc1c(O)c(Cl)cc(Cl)c1Cl'],0.640,Oc1c(Cl)cc(Cl)[cH:1][cH:1]1,0.524
+['CSc1ccccc1Nc1nc(nc2c(NCC3CC3)ncnc12)N1CCNCC1'],0.655,c1ccc([SH:1])c(N[CH3:1])c1,0.121
+['O[C@@H](CN1CCNCC1)Cn1c2ccc(Br)cc2c2cc(Br)ccc12 |&1:1|'],0.408,Brc1ccc2c(c1)[cH:1][cH:1]n2[CH3:1],0.179
+['CN(C)c1ccc2nc3ccc(cc3sc2c1)=[N+](C)C'],0.450,c1cc(=[N+:1])cc2sc3c[cH:1]ccc3nc1-2,0.164
+['[O-][N+](=O)c1ccc2C=CS(=O)(=O)c2c1 |c:7|'],0.341,O=[S:1]1C=Cc2cc[cH:1]cc21,0.341
+['C[n+]1c2cc(N)ccc2cc2ccc(N)cc12'],0.397,C1=[CH:1][CH:1]=[N+:1]c2c[cH:1]ccc21,0.249
+['CN([NH2+][O-])C(=O)N[C@@H](C=O)[C@@H](O)[C@@H](O)[C@@H](O)CO |&1:7,&2:10,&3:12,&4:14,r|'],0.009,,
+['Cc1ccc(cc1)S(=O)(=O)\\C=C\\C#N'],0.196,C(=[CH2:1])[S:1]c1cc[cH:1]cc1,0.136
+['Nc1ccc2cc3ccc(N)cc3nc2c1.C[n+]1c2cc(N)ccc2cc2ccc(N)cc12'],0.754,C1=[CH:1][CH:1]=[N+:1][CH:1]=[CH:1]1.c1c[cH:1][cH:1]c[cH:1]1,0.236
+['[O-][N+](=O)c1ccc(\\C=N\\N2C[C@@H](CN3CCOCC3)OC2=O)o1 |&1:11,r|'],0.154,O=[N+:1]c1ccc(C=[NH:1])o1,0.232
+['Nc1c2ccccc2nc2ccccc12'],0.276,Nc1c2ccccc2n[cH:1][cH:1]1,0.108
+['Fc1cc(cc(F)c1CN1CCOCC1)-c1cccc2ncc(nc12)-c1cnn(c1)C1CCNCC1'],0.405,c1cc(-c2c[cH:1][cH:1][cH:1]c2)c2n[cH:1]cnc2c1,0.119
+['COC1=C(OC)C(=O)C(CCCCCCCCCC[P+](c2ccccc2)(c2ccccc2)c2ccccc2)=C(C)C1=O |c:2,t:40|'],0.819,O=C1C([OH:1])=[CH:1]C(=O)[CH:1]=[CH:1]1,0.560
+['CCCC[P+](CCCC)(CCCC)Cc1ccc(NC(=O)[C@H](Cc2ccc3ccccc3c2)N\\C(NC2CCCCC2)=N\\C2CCCCC2)cc1'],0.141,,
+['CC(=O)O[Pt](N)(Cl)(Cl)(NC1CCCCC1)OC(C)=O'],0.220,O=[CH:1]O[Pt:1](N[CH3:1])O[CH:1]=O,0.410
+['[H][C@@]12Cc3c(F)cc(NC(=O)CN4CCCC4)c(O)c3C(=O)[C@H]1C(=O)[C@]1(O)C(=O)[C@H](C(N)=O)C(=O)[C@@H](N(C)C)[C@]1([H])C2 |&1:29,&2:22|'],0.042,,
+['Oc1ccc(cc1O)C(=O)Nc1nc(c(s1)-c1ccccc1)-c1ccc(O)c(O)c1'],0.453,Oc1ccc([CH2:1][NH2:1])c[cH:1]1,0.102
+['CN(C)c1ccc2Nc3ccc(cc3Sc2c1)N(C)C'],0.637,c1c[cH:1]cc2c1N[CH:1]=[CH:1]S2,0.261
+['[O-][N+](=O)c1ccc(\\C=N\\N2CCOC2=O)o1'],0.526,O=[N+:1]c1ccc(C=[NH:1])o1,0.232
+['Oc1ccc(CCNCCN(C2CCCCC2)C(=O)CCNCCc2ccc(Cl)c(Cl)c2)c2OCC(=O)Nc12'],0.459,Oc1ccc(C[CH3:1])[cH:1][cH:1]1,0.215
+['COc1cc2nc(nc(NC3CCN(Cc4ccccc4)CC3)c2cc1OC)N1CCCN(C)CC1'],0.636,c1c([OH:1])[cH:1]cc2n[cH:1]n[cH:1]c12,0.170
+['C[n+]1cc2c3OCOc3ccc2c2ccc3cc4OCOc4cc3c12'],0.604,c1c2c(c[cH:1][cH:1]1)OCO2,0.201
+['Nc1nc(c(F)cc1F)-n1cc(C(O)=O)c(=O)c2cc(F)c(N3CC(O)C3)c(Cl)c12'],0.189,Clc1c2c(c[cH:1][cH:1]1)[cH:1][cH:1]c[n:1]2,0.114
+['Nc1nnc(Sc2ncc(s2)[N+]([O-])=O)s1'],0.077,,
+['CNc1ncc(cc1C)-c1ccc2c(c1C)n(cc(C(O)=O)c2=O)C1CC1'],0.122,O=c1c2cc[cH:1][cH:1]c2[nH:1]c[cH:1]1,0.111
+['N[C@H]1CCN(C1)c1c(F)cc2c(c1Cl)n(cc(C(O)=O)c2=O)C1CC1 |&1:1|'],0.052,,
+['N[C@H]1CCN(C1)c1nc2n(cc(C(O)=O)c(=O)c2cc1F)-c1ccc(F)cc1F |&1:1|'],0.065,,
+['COc1c(N2CCN[C@@H](C)C2)c(F)cc2c1n(cc(C(O)=O)c2=O)C1CC1 |&1:8|'],0.041,,
+['N[C@H]1[C@@H]2CN(C[C@H]12)c1nc2n(cc(C(O)=O)c(=O)c2cc1F)-c1ccc(F)cc1F'],0.093,,
+['COc1c(N2C[C@@H]3CCCN[C@@H]3C2)c(F)cc2c1n(cc(C(O)=O)c2=O)C1CC1'],0.063,,
+['C[C@H]1NCc2cc(ccc12)-c1ccc2c(c1OC(F)F)n(cc(C(O)=O)c2=O)C1CC1'],0.105,c1c[cH:1]c([OH:1])c2c1[cH:1][cH:1]c[n:1]2,0.301
+['CCn1cc(C(O)=O)c(=O)c2cc(F)c(cc12)N1CCNCC1'],0.036,,
+['C1CCC(CC1)c1ccc2n3CCNC4CCCc(c34)c2c1'],0.338,c1c[cH:1]cc2c3c4n(c12)CCNC4CCC3,0.245
+['CN1CCN(CC1)c1cc2n(cc(C(O)=O)c(=O)c2cc1F)-c1ccc(F)cc1'],0.112,O=c1c2c[cH:1][cH:1]cc2[nH:1]c[cH:1]1,0.111
+['OC(=O)c1cn(-c2ccc(F)cc2)c2cc(N3CCNCC3)c(F)cc2c1=O'],0.111,O=c1c2c[cH:1][cH:1]cc2[nH:1]c[cH:1]1,0.111
+['C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c2n1cc(C(O)=O)c3=O'],0.026,,
+['Cl[Pt]Cl'],0.038,,
+['C[n+]1c(cc(cc1-c1ccccc1)CCCCc1cc([n+](c(c1)-c1ccccc1)C)-c1ccccc1)-c1ccccc1'],0.670,C1=C(CC[CH3:1])C=[CH:1][N+:1]=[CH:1]1,0.209
+['CCCCCCCCCCCCCCCC[n+]1cccc2ccccc12'],0.706,C(CCC[CH3:1])CCC[CH3:1],0.229
+['CCCC[P+](CCCC)(CCCC)Cc1ccc(cc1)NC(=O)[C@@H](Cc1ccc2ccccc2c1)N=C(NC1CCCCC1)NC1CCCCC1'],0.172,C1CCC(NC(=N[CH2:1]C[CH3:1])NC2CCCCC2)CC1,0.109
+['OC(=O)C1=CN(C2CC2)c2c(cc(c(c2C#N)N2C[C@@H]3NCCO[C@H]3C2)F)C1=O'],0.039,,
+['CCCCCCCCCC[n+]1cccc2c1ccc1ccccc12'],0.664,C(CCC[CH3:1])CCC[CH3:1],0.229
+['CC[C@@H](C)CCCCC(=O)N[C@@H](CCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCN)C(=O)N[C@H]1NC(=O)[C@@H](NC(=O)[C@@H](CCN)NC(=O)[C@@H](CCN)NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](Cc2ccccc2)NC(=O)[C@@H](CCN)NC1=O)[C@@H](C)O'],0.065,,
+['NCCCCc1ccc2ccc3cccc4ccc1c2c34'],0.425,c1cc2ccc3cc[cH:1]c4ccc(c1)c2c34,0.184
+['COc1c(c(cc2c1N(C=C(C(=O)O)C2=O)C1CC1)F)CN1CC[C@@H]2CCCN[C@@H]2C1'],0.042,,
+['CCCCCCCCCCCCCCCC[N+](C)(C)CC'],0.587,C(CCC[CH3:1])CCC[CH3:1],0.229
+['O[C@@H](CNC1CCCC1)Cn1c2ccc(cc2c2cc(ccc12)Cl)Cl'],0.596,Clc1ccc2c(c1)[cH:1][cH:1]n2[CH3:1],0.134
+['CC(=O)O[Pt+4](C)(C)(Cl)(Cl)OC(=O)C.NC1CCCCC1'],0.178,CC(=O)O[Pt+4:1](Cl)Cl.N[CH3:1],0.187
+['CN(C)c1ccc(cc1)[C+](c1ccc(cc1)N(C)C)c1ccc(cc1)N(C)C'],0.690,C[NH:1]c1ccc([C+:1])cc1,0.110
+['CN1CCN(CC1)c1c(cc2c3c1OCN(C)N3C=C(C(=O)O)C2=O)F'],0.038,,
+['CC(C)c1ccc(cc1)Cn1ccc2c1ccc1nc(nc(c12)N)NC1CC1'],0.589,c1c[cH:1][cH:1]c2ccn(C[CH3:1])c12,0.115
+['CC(C)CCNC[C@@H](O)Cn1c2ccccc2c2ccccc12'],0.360,c1ccc2c(c1)n(C[CH3:1])[cH:1][cH:1]2,0.115
+Elapsed time = 1 day, 2:08:37
