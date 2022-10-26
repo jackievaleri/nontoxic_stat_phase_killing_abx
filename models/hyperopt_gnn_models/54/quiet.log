@@ -1,0 +1,18 @@
+Fold 0
+Model 0 best validation auc = 0.959886 on epoch 27
+Model 0 test auc = 0.767767
+Ensemble test auc = 0.767767
+Fold 1
+Model 0 best validation auc = 0.886787 on epoch 27
+Model 0 test auc = 0.797408
+Ensemble test auc = 0.797408
+Fold 2
+Model 0 best validation auc = 0.904999 on epoch 13
+Model 0 test auc = 0.809769
+Ensemble test auc = 0.809769
+3-fold cross validation
+	Seed 0 ==> test auc = 0.767767
+	Seed 1 ==> test auc = 0.797408
+	Seed 2 ==> test auc = 0.809769
+Overall test auc = 0.791648 +/- 0.017624
+Elapsed time = 0:08:56
