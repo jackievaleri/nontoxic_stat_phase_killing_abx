@@ -1,6 +1,5 @@
 
 data/PublicStructures.txt
-data/broad.npz
 .DS_Store
 src/.DS_Store
 src/.ipynb_checkpoints/01_read_in_data_v1-checkpoint.ipynb
