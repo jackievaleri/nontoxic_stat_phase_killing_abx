@@ -8,4 +8,4 @@ All computational analyses can be accessed at this repository, with machine lear
 * All original code has been deposited in the src/ folder and is publicly available as of the date of submission. 
 * Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.
 
-If you have any issues, questions, or concerns, please do not hesitate to open up an issue or contact valerij "at" mit "dot" edu.
+Some raw data files have been zipped so that they can be uploaded in GitHub. Some random forest classifier .pkl files have been omitted due to size reasons and because these models were not ultimately used for any predictive purposes, but feel free to request all files from us if you need them. If you have any issues, questions, or concerns, please do not hesitate to open up an issue or contact valerij "at" mit "dot" edu.
