@@ -89,7 +89,6 @@ src/.ipynb_checkpoints/S2A_tsne_drh_800k_abx-checkpoint.ipynb
 src/.ipynb_checkpoints/S2BCDE_evaluate_model_predictions-checkpoint.ipynb
 src/.ipynb_checkpoints/S2F_tsne_with_all_actives-checkpoint.ipynb
 src/.ipynb_checkpoints/S2Table_tox_models_agreement_with_actual_toxicity_data-checkpoint.ipynb
-src/S2A_tsne_drh_800k_abx.ipynb
 out/broad800k_model_predictions_08_20_2021.csv
 out/drh_vs_broad800k_tsne_data_plus_annotated_mechanism_plus_val_ML_mols.csv
 data/broad.npz
