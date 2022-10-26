@@ -1,0 +1,12 @@
+Fold 0
+Test auc = 0.6538253328390943
+Fold 1
+Test auc = 0.7147329642986161
+Fold 2
+Test auc = 0.5685199423978173
+3-fold cross validation
+	Seed 0 ==> test auc = 0.653825
+	Seed 1 ==> test auc = 0.714733
+	Seed 2 ==> test auc = 0.568520
+Overall test auc = 0.645693 +/- 0.059968
+Elapsed time = 0:00:30
