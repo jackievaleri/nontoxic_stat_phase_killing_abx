@@ -1,4 +1,4 @@
-# nontoxic_stat_phase_killing_abx
+# Discovery of non-toxic antibiotics that kill metabolically dormant bacteria
 Code, models, and data needed to reproduce computational figures for the manuscript "Discovery of non-toxic antibiotics that kill metabolically dormant bacteria".
 
 There is a need to discover and develop non-toxic antibiotics that are effective against metabolically dormant bacteria, which underlie chronic infections and promote antibiotic resistance. Traditional antibiotic discovery has historically favored compounds effective against actively metabolizing cells, a property that is not predictive of efficacy in dormant contexts. Here, we combine a stationary-phase screening method with deep learning-powered virtual screens and toxicity filters to evaluate properties of compounds with lethality against dormant bacteria. This work demonstrates the value of harnessing non-traditional screening methods and deep learning models to identify non-toxic antibacterial compounds that are effective in infection-relevant contexts.
