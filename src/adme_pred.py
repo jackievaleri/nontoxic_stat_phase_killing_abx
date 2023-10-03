@@ -1,3 +1,6 @@
+# This code is obtained from adme-pred-py: https://github.com/ikmckenz/adme-pred-py/tree/master
+# Taken directly because I needed the functionality of installing from source
+
 """This library supports computational drug discovery by implementing several
 druglikenss filters, medicinal chemistry filters, and provides an easy to use
 wrapping API for common cheminformatics calculations."""

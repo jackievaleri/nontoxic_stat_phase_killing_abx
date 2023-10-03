@@ -76,6 +76,7 @@ def get_lowest_tanimoto_from_drug_set(new_set, abx_fps, smiles_list, col_list, m
     ret = print_drug_dict(best_similarity, smiles_list, col_list, names_list, merging_df)
     return(ret)
 
+# function to compute tanimoto similarity against a dataset
 def compute_tanimoto_against_dataset(smis, merging_df, df, dataset_name, smi_col='SMILES', name_col = 'Name'):
 
     df = df[[name_col, smi_col]]
@@ -105,6 +106,7 @@ def compute_tanimoto_against_dataset(smis, merging_df, df, dataset_name, smi_col
 
 ## Drug Likeness Filtering ##
 
+# checking for validity as defined in RDKit
 def keep_valid_molecules(df, smiles_column):
     smis = list(df[smiles_column])
     mols = [Chem.MolFromSmiles(smi) for smi in smis]
@@ -117,6 +119,7 @@ def keep_valid_molecules(df, smiles_column):
         m.SetProp('SMILES', smi)
     return(df, mols)
 
+# checking for clogp
 def filter_for_clogp(df, mols, smiles_column, thresh = 3):
     smis = list(df[smiles_column])
     logps = [ADME(smi)._logp() for smi in smis]
@@ -126,6 +129,7 @@ def filter_for_clogp(df, mols, smiles_column, thresh = 3):
     mols = [m for i,m in enumerate(mols) if keep_indices[i]]
     return(df, mols)
 
+# checking for PAINS structural alerts
 def filter_pains(df, mols, smiles_column, thresh = 0):
     # initialize filter
     params = FilterCatalogParams()
@@ -142,7 +146,7 @@ def filter_pains(df, mols, smiles_column, thresh = 0):
     print('length of all preds with less than or equal to ' + str(thresh) + ' PAINS alerts: ', len(df))
     return(df, mols)
 
-
+# checking for Brenk structural alerts
 def filter_brenk(df, mols, smiles_column, thresh = 1):
     # initialize filter
     params = FilterCatalogParams()
@@ -159,6 +163,7 @@ def filter_brenk(df, mols, smiles_column, thresh = 1):
     print('length of all preds with less than or equal to ' + str(thresh) + ' Brenk alerts: ', len(df))
     return(df, mols)
 
+# filtering for Egan druglikeness
 def filter_for_druglikeness_egan(df, smiles_column):
     smis = list(df[smiles_column])
     druglikeness = [ADME(smi).druglikeness_egan() for smi in smis]
@@ -166,6 +171,7 @@ def filter_for_druglikeness_egan(df, smiles_column):
     print('length of df satisfying druglikeness Egan: ', len(df))
     return(df)
 
+# filtering for Ghose druglikeness
 def filter_for_druglikeness_ghose(df, smiles_column):
     smis = list(df[smiles_column])
     druglikeness = [ADME(smi).druglikeness_ghose() for smi in smis]
@@ -173,6 +179,7 @@ def filter_for_druglikeness_ghose(df, smiles_column):
     print('length of df satisfying druglikeness Ghose: ', len(df))
     return(df)
 
+# filtering for Lipinski druglikeness
 def filter_for_druglikeness_lipinski(df, smiles_column):
     smis = list(df[smiles_column])
     druglikeness = [ADME(smi).druglikeness_lipinski() for smi in smis]
@@ -180,6 +187,7 @@ def filter_for_druglikeness_lipinski(df, smiles_column):
     print('length of df satisfying druglikeness Lipinski: ', len(df))
     return(df)
 
+# filtering for Muegge druglikeness
 def filter_for_druglikeness_muegge(df, smiles_column):
     smis = list(df[smiles_column])
     druglikeness = [ADME(smi).druglikeness_muegge() for smi in smis]
@@ -189,6 +197,7 @@ def filter_for_druglikeness_muegge(df, smiles_column):
 
 ## Clustering Functions ##
 
+# code to cluster fingerprints with hierarchical clustering
 # code adapted from https://www.macinchem.org/reviews/clustering/clustering.php
 def clusterFps(fps,num_clusters):
 
@@ -203,11 +212,10 @@ def clusterFps(fps,num_clusters):
             final_clusters[m] = curr_list
         else:
             final_clusters[m] = [ix]
-    
     return clusterer.labels_, final_clusters
 
+# determine optimal # of hierarchical clusters
 def determine_optimal_clustering_number(df, max_num_clusters):
-
     df['row_num'] = list(range(len(df)))
     df = df.drop_duplicates(subset='SMILES')
     smis = list(df['SMILES'])
@@ -215,6 +223,7 @@ def determine_optimal_clustering_number(df, max_num_clusters):
     murcks = [MurckoScaffold.GetScaffoldForMol(mol) for mol in mols]
     fps = [AllChem.GetMorganFingerprintAsBitVect(x,2,1024) for x in murcks]
     
+    # calculate maximum distance within cluster and average distance within cluster
     max_dists = []
     avg_dists = []
     print(max_num_clusters)
@@ -225,9 +234,7 @@ def determine_optimal_clustering_number(df, max_num_clusters):
         for cluster_key in final_clusters:
             cluster_mols = final_clusters[cluster_key]
             cluster_mols = [mols[i] for i in cluster_mols]
-            
             # get similarities
-            #cluster_murcks = [MurckoScaffold.GetScaffoldForMol(mol) for mol in cluster_mols]
             cluster_fps = [AllChem.GetMorganFingerprintAsBitVect(x,2,1024) for x in cluster_mols]
             tan_array = [DataStructs.BulkTanimotoSimilarity(i, cluster_fps) for i in cluster_fps]
             flattened_tan_array = [item for sublist in tan_array for item in sublist]
@@ -235,10 +242,14 @@ def determine_optimal_clustering_number(df, max_num_clusters):
             max_dist.append(np.min(flattened_tan_array))
         max_dists.append(np.average(max_dist))
         avg_dists.append(np.average(avg_dist))
+
+    # to make decision on clustering, plot number of clusters vs minimum similarity within cluster
     plt.scatter(list(range(1,max_num_clusters)), max_dists)
     plt.xlabel('Number of Clusters')
     plt.ylabel('Average of Minimum Similarity Within Cluster')
     plt.show()
+
+    # to make decision on clustering, plot number of clusters vs average similarity within cluster
     plt.scatter(list(range(1,max_num_clusters)), avg_dists)
     plt.xlabel('Number of Clusters')
     plt.ylabel('Average of Mean Similarity Within Cluster')
@@ -246,17 +257,20 @@ def determine_optimal_clustering_number(df, max_num_clusters):
 
     return(df, max_dists)
 
+# cluster molecules and plot them for visualization
 def extract_legends_and_plot(df, name, folder, num_clusters, name_col):
 
+    # clean up the input dataframe
     df['row_num'] = list(range(len(df)))
     df = df.drop_duplicates(subset='SMILES')
     smis = list(df['SMILES'])
     legends = []
     row_num = 0
     
-    subImgSize= (500,500)
+    # get the molecules for plotting
     mols = [Chem.MolFromSmiles(mol) for mol in smis]
     
+    # make specific legends for each molecule if possible
     for smi in smis:
         try:
             mol = Chem.MolFromSmiles(smi)
@@ -280,12 +294,14 @@ def extract_legends_and_plot(df, name, folder, num_clusters, name_col):
     molsPerRow = 4
     subImgSize= (500,500)
     
+    # get the Murcko Scaffolds and then calculate fingerprints from there
     murcks = [MurckoScaffold.GetScaffoldForMol(mol) for mol in mols]
     fps = [AllChem.GetMorganFingerprintAsBitVect(x,2,1024) for x in murcks]
     raw_cluster_labels, final_clusters=clusterFps(fps,num_clusters=num_clusters)
     img_list = []
     name_index = 0
     
+    # plot final clusters with molecules and legends
     for cluster_key in final_clusters:
         cluster_mols = final_clusters[cluster_key]
         cluster_mols = [mols[i] for i in cluster_mols]
@@ -296,13 +312,13 @@ def extract_legends_and_plot(df, name, folder, num_clusters, name_col):
         fullSize = (molsPerRow * subImgSize[0], nRows * subImgSize[1])
         d2d = rdMolDraw2D.MolDraw2DCairo(fullSize[0],fullSize[1], subImgSize[0], subImgSize[1])
         d2d.drawOptions().legendFontSize=100
-        #d2d.drawOptions().useBWAtomPalette()
         d2d.DrawMolecules(cluster_mols,legends=[mol.GetProp('legend') for mol in cluster_mols])
         d2d.FinishDrawing()
         new_name = folder + str(name_index) + '_' + name
         open(new_name,'wb+').write(d2d.GetDrawingText())
         img_list.append(new_name)
         name_index = name_index + 1
+
+    # save dataframe with cluster information
     df['cluster'] = [str(i) for i in raw_cluster_labels] # so it gets interpreted by plotly in a good way
     return(df, mols)
-        

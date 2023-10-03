@@ -1,6 +1,5 @@
 cd ../../chemprop/;
 
-
 # ffn
 mkdir ../../nontoxic_stat_phase_killing_abx/models/final_hyperopt_shallow_models_for_pub/FINALFFN26; python train.py --ffn_num_layers 3 --hidden_size 1500 --dropout 0.3 --save_dir ../../nontoxic_stat_phase_killing_abx/models/final_hyperopt_shallow_models_for_pub/FINALFFN26 --data_path ../../nontoxic_stat_phase_killing_abx/out/data_for_sklearn.csv --num_folds 20 --dataset_type classification --features_generator morgan --no_features_scaling --split_type scaffold_balanced --split_sizes 0.8 0.1 0.1 --smiles_columns SMILES --target_columns hit_inh hit_kill --depth 0 --features_only --metric auc --extra_metrics prc-auc
 
